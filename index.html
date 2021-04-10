@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+	<link rel="icon" href="foodPage-Image.png">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<title>Impact Notes</title>
+	<!-- <script>$(document).ready(function(){
+			$(".toppage").hide();
+			$(".midpage").hide();
+			$(".toppage").fadeIn(1500);
+			$(".toppage").slideUp(1000);
+			$(".midpage").fadeIn(7500);
+			});
+		</script> -->
+	<meta charset="UTF-8" />
+        <!-- Nav Scripts -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+    ></script>
+</head>
+
+<body id="noScroll">
+	<!-- Nav-bar -->
+    <nav class="navbar navbar-expand-lg" role="navigation">
+        <a class="nav-item navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropMenu"
+            aria-controls="navbarDropMenu" aria-expanded="false" aria-label="Toggle navigation">
+            |||
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDropMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item active mx-2">
+                    <a class="nav-link" href="aboutUs.php">About Us
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="map.html">Map</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="elements.html">Elements</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="characters.php">Characters</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="recipe.php">Recipes</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="domain.php">Domains</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="eventPage.html">Events</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="weak.html">Monsters</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	<!-- End Nav -->
+	<div class="peffect" id="temp-title">
+
+		<p class="titletext toppage">Impact Notes</p>
+		<p class="sub-title">Your Go-To Website For Genshin Impact Information</p>
+		<!-- <p class = "titletext midpage">Scroll Down</p> -->
+	</div>
+
+	<div class="peffect2">
+		<div class="row p-5" style="text-align: center;">
+			<div class="col-sm-12 col-md-6">
+				<div class="red-cube first" id="firstImage"></div>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<div class="red-cube first" id="secondImage">
+					<p class="Text-Title">
+						Character List...
+					</p>
+
+					<p class="insideText">With over 20 playable characters, choose which 4 suit your playstyle the most!
+					</p>
+					<a class="button button1" href="./characters.php">
+						<button class="Nav-Buttons">Characters</button></a>
+
+				</div>
+			</div>
+
+		</div>
+		<div style="margin: 0px; padding: 0px;">
+			<svg viewbox="0 0 1320 230">
+				<path class="testid33" id="top" d="M0,192
+				  C220,100,440,100,660,192
+				  C880,290,1100,290,1320,190
+				  L1320 500
+				  L0 500" fill="#FFFFFF" />
+			</svg>
+			<div id="Middle-Median">
+				<!-- <div class = "row p-5" style = "text-align: center; height: 415px;">
+					<div class = "col-sm-12 col-md-6">
+						<div class="red-cube second" id = "firstImage">
+            </div> 
+					</div>
+					<div class = "col-sm-12 col-md-6">
+						<div class = "red-cube second" id = "secondImage">
+              <p class = "Wave-Text-Title">
+                Domains...
+
+              </p>
+							<p class = "Wave-Text">Find and Explore all the domains in Teyvat!</p>
+							<a class="button button1" href="./domain.html">Domains</a>
+	
+						</div>
+					</div>
+	
+				</div> -->
+				<div class="row p-5" style="text-align: center; height: 400px;opacity:100% !important;">
+					<div class="col-sm-12 col-md-6">
+						<div class="red-cube second" id="food-box">
+							<p class="Wave-Text-Title">
+								Create Food...
+							</p>
+
+							<p class="Wave-Text">Discover 50+ Food Recipes!</p>
+							<a class="button button1" id="Wave-info" href="./recipe.php"><button class="Nav-Buttons"
+									id="Wave">Recipes</button></a>
+
+						</div>
+
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="red-cube second" id="foodImage"></div>
+					</div>
+
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path fill="#fff" fill-opacity="1" id="bottom" d="M0,96L60,117.3C120,139,240,181,360,202.7C480,224,600,224,
+          720,186.7C840,149,960,75,1080,74.7C1200,75,1320,149,1380,186.7L1440,
+          224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,
+          0,360,0C240,0,120,0,60,0L0,0Z"></path>
+			</svg>
+		</div>
+
+		<div class="row" style="text-align: center; height: 415px;">
+			<div class="col-sm-12 col-md-6">
+				<div class="red-cube third" id="elementImage"></div>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<div class="red-cube third" id="text-box">Elemental Combinations...
+
+					<p class="insideText">View and Discover all possible elemental combinations</p>
+					<a class="button button1" href="elements.html"><button class="Nav-Buttons">Elements</button></a>
+
+				</div>
+			</div>
+
+		</div>
+		<!-- <div class = "row p" style = "text-align: center;">
+					<div class = "col-sm-12 col-md-6">
+						<div class = "red-cube third" id = "secondImage">Fight Against Evil...
+	
+							<p class = "insideText">Fight over 50+ unique different enemies</p>
+							<a class="button button1" href="https://www.google.com/">Enemies</a>
+						</div>
+					</div>
+					<div class = "col-sm-12 col-md-6">
+						<div class="red-cube third" id = "firstImage"></div> 
+					</div>
+				</div> -->
+
+
+
+		<div class="peffect" id="image2" style="margin-top: 300px; padding-bottom: 300px;">
+			<h1 id="header" style="margin:0px; text-align: center;">Created by:</h1>
+			<p id="names" style="margin:0px; text-align: center;">Abdullah Aftab | Samee Chowdhury | Igor Goncalves
+				Penedos</p>
+		</div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,100 @@
+body{
+    text-decoration: none;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.food{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 16%;
+    padding: 0;
+    margin-right: 1%;
+    display: inline-flex;
+}
+
+.ham{
+    background-image: url(./ham.png);
+}
+
+.crab{
+    background-image: url(./crab.png);
+}
+
+.shrimpMeat{
+    background-image: url(./shrimpMeat.png);
+}
+
+.matsutake{
+    background-image: url(./matsutake.png);
+}
+
+.nF{
+    display: inline-flex;
+    font-size: 30px;
+    margin-right: 1%;
+}
+
+#content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#title{
+    font-size: 5em;
+    margin-bottom: 2%;
+}
+
+.cB{
+    border-color: #3c3e42;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding-top: 1em;
+}
+
+.boxC div{
+    background-color: #16161a;
+    transition: 1s ease;
+}
+
+.boxC p{
+    background-color: #16161a;
+    transition: 1s ease;
+}
+
+.boxC h1{
+    background-color: #16161a;
+    transition: 1s ease;
+}
+
+.boxC img{
+    background-color: #16161a;
+    transition: 1s ease;
+}
+
+.boxC:hover div{
+    background-color: #3c3e42;
+    transition: 1s ease;
+}
+
+.boxC:hover p{
+    background-color: #3c3e42;
+    transition: 1s ease;
+}
+
+.boxC:hover h1{
+    background-color: #3c3e42;
+    transition: 1s ease;
+}
+
+.boxC:hover img{
+    background-color: #3c3e42;
+    transition: 1s ease;
+}
+
+.imgS{
+    display: inline;
+    background: transparent;
+}

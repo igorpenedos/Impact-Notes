@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  background-color: #16161a;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+flex - basically side by side blocks
+center (justify) - center inside container
+align-items - center vertically basically
+flex-warp - blocks will not stack on same line, instead fit below
+*/
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.character-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* max-width: 1200px;
+  margin: 40px 0; */
+}
+.Header {
+  padding-top: 60px;
+  text-align: center;
+}
+#Head-Title {
+  color: #ffffff;
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*
+Position - relative so we base it off left,right,top,bottom
+min height/width - make sure the card is always at least this size
+*/
+.character-card {
+  margin-top: 100px;
+  background-color: #312f2f;
+  position: relative;
+  min-width: 310px;
+  min-height: 410px;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+/*
+Position - absolute so its relative to the parent div 
+ */
+
+.box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid #3c3e42;
+  border-radius: 10px;
+  background-color: #3c3e42;
+
+  transition: 0.4s ease;
+}
+/* The following code will be used
+    for nav bar responsiveness
+*/
+
+/* Nav */
+.nav-link {
+  color: white;
+}
+.navbar-nav {
+  margin-left: 12%;
+}
+
+.navbar-toggler {
+  background-color: #d03f53;
+  outline: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.nav-item {
+  background-color: none;
+  border: 2px solid #d03f53;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  transition: 0.4s ease;
+  color: white;
+  font-size: 20px;
+  width: 170px;
+  text-align: center;
+}
+.nav-item:hover {
+  background-color: #d03f53;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*
+translateY - lift the box up 20px
+*/
+.box:hover {
+  /* transform: translateY(-30px); */
+}
+
+.character-card:hover {
+  transform: translateY(-30px);
+
+}
+
+.info {
+  background-color: #3c3e42;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  border: 2px solid #3c3e42;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+
+h1 {
+  background-color: #3c3e42;
+}
+
+.character-name {
+  font-size: 50px;
+}
+.char-image {
+  position: relative;
+  top: 10px;
+  border: 1px solid #3c3e42;
+  border-radius: 50%;
+  width: 120px;
+  height: auto;
+}
+
+#venti-star {
+  position: relative;
+  width: 30px;
+  height: auto;
+  background-color: #3c3e42;
+}
+
+.tier {
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: #d03f53;
+}
+/* #home-logo {
+  width: 150px;
+  height: 50px;
+} */

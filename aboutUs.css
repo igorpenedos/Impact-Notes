@@ -1,0 +1,14 @@
+form input{
+    color:black;
+    background-color: white;
+}
+form textarea{
+    color:black;
+    background-color: white;
+}
+
+hr{
+    height:1px;
+    background-color: white;
+    border: none;
+}
